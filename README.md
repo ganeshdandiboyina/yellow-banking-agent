@@ -1,7 +1,11 @@
-# yellow-banking-agent
+## yellow-banking-agent
 Yellow Bank AI Agent - A comprehensive Super Agent built on yellow.ai platform for secure loan details retrieval with multi-step authentication, OTP verification, and customer satisfaction surveys. Implements token optimization, edge case handling, and supports English-only communication.
 
-🎯 Features
+
+
+
+
+##🎯 Features
 ✅ English Language Restriction: Agent only communicates in English
 ✅ Multi-Step Authentication: Phone number + DOB + OTP verification
 ✅ Token Optimization: Efficient API response filtering
@@ -10,7 +14,10 @@ Yellow Bank AI Agent - A comprehensive Super Agent built on yellow.ai platform f
 ✅ CSAT Integration: Customer satisfaction survey
 ✅ Mock API Support: Beeceptor integration for testing
 PUBLISHED LINK :https://cloud.yellow.ai/bot/x1770603771132/overview
-📊 System Architecture
+
+
+
+##📊 System Architecture
 Conversation Flow
 User initiates request for loan details
 Agent collects phone number and date of birth
@@ -24,12 +31,17 @@ API Endpoints (Beeceptor)
 POST /triggerOTP - Generate random OTP (1234, 5678, 7889, 1209)
 GET /getLoanAccounts - Retrieve list of loan accounts
 GET /loanDetails/:accountId - Get specific loan details
-🔧 Technology Stack
+
+
+##🔧 Technology Stack
 Platform: yellow.ai
 Mock APIs: Beeceptor
 Language: Python (for scripting)
 Authentication: Multi-factor (Phone + DOB + OTP)
-📝 Configuration Details
+
+
+
+##📝 Configuration Details
 System Prompt
 The agent is configured with a comprehensive system prompt that includes:
 
@@ -42,7 +54,10 @@ Conversation Rules (3 Active)
 Language restriction to English
 Mandatory authentication data collection
 Edge case handling for data corrections
-🚀 Deployment
+
+
+
+##🚀 Deployment
 Bot Name: Ganesh Dandiboyina Yellow Bank Agent Status: Published (Awaiting Approval) Access Level: Developer Visibility: Public
 
 Shared Access
@@ -51,12 +66,12 @@ Kushagra Shrivastava (kushagra.shrivastava@yellow.ai) - Developer
 📚 Documentation
 For detailed implementation guide and API specifications, please refer to the assignment requirements and yellow.ai documentation.
 
-👨‍💻 Author
+##👨‍💻 Author
 Name: Ganesh Dandiboyina
 GitHub: ganeshdandiboyina
 Repository: yellow-banking-agent
 
-📄 License
+##📄 License
 This project is open source and available for review and testing purposes.
 
 Last Updated: February 9, 2026
