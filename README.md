@@ -9,7 +9,7 @@ Implements token optimization, edge case handling, and supports English-only com
 
 
 
-##🎯 Features<br>
+##🎯 Features :<br>
 
 ✅ English Language Restriction: Agent only communicates in English<br>
 ✅ Multi-Step Authentication: Phone number + DOB + OTP verification<br>
@@ -22,7 +22,7 @@ PUBLISHED LINK :https://cloud.yellow.ai/bot/x1770603771132/overview<br>
 
 
 
-##📊 System Architecture<br>
+##📊 System Architecture :<br>
 
 Conversation Flow<br>
 User initiates request for loan details<br>
@@ -35,14 +35,14 @@ Full loan details displayed via loanDetails workflow<br>
 User can rate service via CSAT agent<br>
 
 
-##API Endpoints (Beeceptor)<br>
+##API Endpoints :(Beeceptor)<br>
 
 POST /triggerOTP - Generate random OTP (1234, 5678, 7889, 1209)<br>
 GET /getLoanAccounts - Retrieve list of loan accounts<br>
 GET /loanDetails/:accountId - Get specific loan details<br>
 
 
-##🔧 Technology Stack<br>
+##🔧 Technology Stack :<br>
 
 Platform: yellow.ai<br>
 Mock APIs: Beeceptor<br>
@@ -51,7 +51,7 @@ Authentication: Multi-factor (Phone + DOB + OTP)<br>
 
 
 
-##📝 Configuration Details<br>
+##📝 Configuration Details :<br>
 
 System Prompt<br>
 The agent is configured with a comprehensive system prompt that includes:<br>
@@ -67,7 +67,7 @@ Edge case handling for data corrections<br>
 
 
 
-##🚀 Deployment<br>
+##🚀 Deployment :<br>
 
 Bot Name: Ganesh Dandiboyina<br>
 Yellow Bank Agent Status: Published (Awaiting Approval)<br>
@@ -75,19 +75,19 @@ Access Level: Developer<br>
 Visibility: Public<br>
 
 
-Shared Access:<br>
+Shared Access :<br>
 
 Manasvi Sharma (manasvi.sharma@yellow.ai) - Developer<br>
 Kushagra Shrivastava (kushagra.shrivastava@yellow.ai) - Developer<br>
 
 
-📚 Documentation<br>
+📚 Documentation :<br>
 
 For detailed implementation guide and API specifications, please refer to the assignment requirements and yellow.ai documentation.<br>
 
 
 
-##👨‍💻 Author<br>
+##👨‍💻 Author :<br>
 
 Name: Ganesh Dandiboyina<br>
 GitHub: ganeshdandiboyina<br>
@@ -95,14 +95,14 @@ Repository: yellow-banking-agent<br>
 
 
 
-##📄 License<br>
+##📄 License :<br>
 
 This project is open source and available for review and testing purposes.<br>
 
 Last Updated: February 9, 2026<br>
 Status: Complete and Ready for Review<br>
 
-##Assignment Details<br>
+##Assignment Details :<br>
 
 Project : Yellow Bank Agent<br>
 Created : February 9, 2026<br>
